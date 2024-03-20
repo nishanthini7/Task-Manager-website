@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <h1>TODO LISTS <img src="images/checklist logo.jpg" height="28px" width="28px"></h1>
+            <div class="row">
+                <input class="task" type="text" placeholder="Add Your Text" id="task">
+                <button onclick="display_task()" id="id2">Add</button>
+            </div>
+            <ul class="list-container">
+               <li>Wake up at 6am 
+                <button onclick="remove_task(event)" id="id3">Delete</button>
+               </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
